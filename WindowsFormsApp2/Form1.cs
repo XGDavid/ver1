@@ -21,26 +21,7 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            List<Person> p1 = new List<Person>();
-            XmlSerializer serial = new XmlSerializer(typeof(List<Person>));
-
-            if (File.Exists(Environment.CurrentDirectory+"\\db.xml"))
-            {
-                MessageBox.Show("Fisierul deja exista");
-            }else{
-
-                using (FileStream fs = new FileStream(Environment.CurrentDirectory + "\\db.xml", FileMode.Create, FileAccess.Write))
-                {
-                    /*p1.Add(new Person() { Id = 1, Name = "cumva", Pass = "parola"});
-                    p1.Add(new Person() { Id = 2, Name = "cumva"});*/
-
-                    serial.Serialize(fs, p1);
-                    MessageBox.Show("creat");
-                }
-            }
-
-
-
+            (new Form2()).Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

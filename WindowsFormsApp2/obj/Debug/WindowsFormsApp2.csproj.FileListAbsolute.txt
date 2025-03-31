@@ -8,3 +8,13 @@ C:\Clase 2025\11C Turc David\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Windows
 C:\Clase 2025\11C Turc David\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 C:\Clase 2025\11C Turc David\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Clase 2025\11C Turc David\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\xgdav\OneDrive\Documents\GitHub\ver1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\xgdav\OneDrive\Documents\GitHub\ver1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\xgdav\OneDrive\Documents\GitHub\ver1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\xgdav\OneDrive\Documents\GitHub\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\xgdav\OneDrive\Documents\GitHub\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\xgdav\OneDrive\Documents\GitHub\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\xgdav\OneDrive\Documents\GitHub\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\xgdav\OneDrive\Documents\GitHub\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\xgdav\OneDrive\Documents\GitHub\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\xgdav\OneDrive\Documents\GitHub\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
