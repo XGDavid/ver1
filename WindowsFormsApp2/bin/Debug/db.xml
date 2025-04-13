@@ -1,39 +1,38 @@
 <?xml version="1.0"?>
 <ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <User>
-    <Id>0</Id>
     <Name>aaa</Name>
     <Pass>vvv</Pass>
     <IsAdmin>false</IsAdmin>
   </User>
   <User>
-    <Id>0</Id>
     <Name>aaa</Name>
     <Pass>vvv</Pass>
     <IsAdmin>false</IsAdmin>
   </User>
   <User>
-    <Id>0</Id>
     <Name>aaas</Name>
     <Pass>vvv</Pass>
     <IsAdmin>false</IsAdmin>
   </User>
   <User>
-    <Id>0</Id>
     <Name>aaas</Name>
     <Pass>vvv</Pass>
     <IsAdmin>false</IsAdmin>
   </User>
   <User>
-    <Id>0</Id>
     <Name>aaas</Name>
     <Pass>vvv</Pass>
     <IsAdmin>false</IsAdmin>
   </User>
   <User>
-    <Id>0</Id>
     <Name>aaas</Name>
     <Pass>vvv</Pass>
+    <IsAdmin>false</IsAdmin>
+  </User>
+  <User>
+    <Name>dsfsdf</Name>
+    <Pass>sdf</Pass>
     <IsAdmin>false</IsAdmin>
   </User>
 </ArrayOfUser>

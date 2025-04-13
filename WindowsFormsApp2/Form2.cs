@@ -44,16 +44,16 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string username = textBox1.Text;
-            string password = textBox2.Text;
+            var username = textBox1.Text;
+            var password = textBox2.Text;
 
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
-                MessageBox.Show("Please enter both username and password.");
+                MessageBox.Show(@"Please enter both username and password.");
                 return;
             }
 
-            User newUser = new User
+            var newUser = new User
             {
                 Name = username,
                 Pass = password,
@@ -66,32 +66,32 @@ namespace WindowsFormsApp2
 
 
 
-        private void SaveUserToDatabase(User user)
+        private static void SaveUserToDatabase(User user)
         {
-            string path = Environment.CurrentDirectory + "\\db.xml";
-            List<User> users = new List<User>();
+            var path = Environment.CurrentDirectory + "\\db.xml";
+            var users = new List<User>();
 
-            XmlSerializer serializer = new XmlSerializer(typeof(List<User>));
+            var serializer = new XmlSerializer(typeof(List<User>));
             if (File.Exists(path) && new FileInfo(path).Length > 0)
             {
-                using (FileStream fs = new FileStream(path, FileMode.Open))
+                using (var fs = new FileStream(path, FileMode.Open))
                 {
                     users = (List<User>)serializer.Deserialize(fs);
                 }
             }
             else { 
-            Debug.WriteLine("Fisierul nu exista");
+                Debug.WriteLine("Fisierul nu exista");
             }
 
             users.Add(user);
 
-            XmlSerializer writer = new XmlSerializer(typeof(List<User>));
-            using (FileStream fs = new FileStream(path, FileMode.Create))
+            var writer = new XmlSerializer(typeof(List<User>));
+            using (var fs = new FileStream(path, FileMode.Create))
             {
                 writer.Serialize(fs, users);
             }
 
-            MessageBox.Show("User saved successfully.");
+            MessageBox.Show(@"User saved successfully.");
         }
     }
 }
