@@ -46,10 +46,17 @@ namespace WindowsFormsApp2
         {
             var username = textBox1.Text;
             var password = textBox2.Text;
+            var confirm = textBox3.Text;
 
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirm))
             {
-                MessageBox.Show(@"Please enter both username and password.");
+                MessageBox.Show("Baga si numele si parola");
+                return;
+            }
+
+            if(!string.Equals(password, confirm))
+            {
+                MessageBox.Show("Parola si confirmarea parolei nu e matched");
                 return;
             }
 
@@ -61,6 +68,11 @@ namespace WindowsFormsApp2
             };
 
             SaveUserToDatabase(newUser);
+
+            textBox1.Text = "";
+            textBox2.Text = "";
+            this.Hide();
+            new Form1().Show();
         }
 
 
@@ -91,7 +103,34 @@ namespace WindowsFormsApp2
                 writer.Serialize(fs, users);
             }
 
-            MessageBox.Show(@"User saved successfully.");
+            MessageBox.Show("User saved successfully.");
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBox1.Checked)
+            {
+                textBox2.PasswordChar = '\0';
+                textBox3.PasswordChar = '\0';
+            }
+            else
+            {
+                textBox2.PasswordChar = '*';
+                textBox3.PasswordChar = '*';
+            }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            new Form1().Show();
         }
     }
 }
