@@ -65,4 +65,29 @@
     <Pass>dsf</Pass>
     <IsAdmin>false</IsAdmin>
   </User>
+  <User>
+    <Name>sas</Name>
+    <Pass>asds</Pass>
+    <IsAdmin>false</IsAdmin>
+  </User>
+  <User>
+    <Name>1</Name>
+    <Pass>1</Pass>
+    <IsAdmin>false</IsAdmin>
+  </User>
+  <User>
+    <Name>1</Name>
+    <Pass>1</Pass>
+    <IsAdmin>false</IsAdmin>
+  </User>
+  <User>
+    <Name>1</Name>
+    <Pass>1</Pass>
+    <IsAdmin>false</IsAdmin>
+  </User>
+  <User>
+    <Name>1</Name>
+    <Pass>1</Pass>
+    <IsAdmin>false</IsAdmin>
+  </User>
 </ArrayOfUser>

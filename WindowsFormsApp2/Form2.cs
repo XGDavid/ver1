@@ -12,6 +12,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using System.Xml.Serialization;
 using WindowsFormsApp2;
 using System.Diagnostics;
+using System.Xml.Linq;
+using System.Xml.XPath;
+
 
 namespace WindowsFormsApp2
 {
@@ -60,6 +63,12 @@ namespace WindowsFormsApp2
                 return;
             }
 
+            if (!checkUser(username))
+            {
+                MessageBox.Show("Deja este un cont cu acelasi nume");
+                return;
+            }
+
             var newUser = new User
             {
                 Name = username,
@@ -75,7 +84,21 @@ namespace WindowsFormsApp2
             new Form1().Show();
         }
 
+        private bool checkUser(string username)
+        {
+            var path = Environment.CurrentDirectory + "\\db.xml";
+            if (!File.Exists(path) || new FileInfo(path).Length < 1)
+            {
+                return false;
+            }
+            XDocument xdoc = XDocument.Load(path);
+            var xmlCheck = String.Format("//User/[Name='{0}']", username);
+            var existUser = xdoc.XPathSelectElement(xmlCheck);
 
+            return existUser != null;
+
+
+        }
 
 
         private static void SaveUserToDatabase(User user)

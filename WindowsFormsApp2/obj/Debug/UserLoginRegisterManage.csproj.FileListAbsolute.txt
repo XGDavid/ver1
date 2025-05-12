@@ -20,3 +20,13 @@ C:\Clase 2025\11C Turc David\astazi\WindowsFormsApp2\obj\Debug\UserLoginRegister
 C:\Clase 2025\11C Turc David\astazi\WindowsFormsApp2\obj\Debug\UserLoginRegisterManage.csproj.CoreCompileInputs.cache
 C:\Clase 2025\11C Turc David\astazi\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Clase 2025\11C Turc David\astazi\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Elev\Source\Repos\XGDavid\ver1\WindowsFormsApp2\obj\Debug\UserLoginRegisterManage.csproj.AssemblyReference.cache
+C:\Users\Elev\Source\Repos\XGDavid\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Elev\Source\Repos\XGDavid\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
+C:\Users\Elev\Source\Repos\XGDavid\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Elev\Source\Repos\XGDavid\ver1\WindowsFormsApp2\obj\Debug\UserLoginRegisterManage.csproj.GenerateResource.cache
+C:\Users\Elev\Source\Repos\XGDavid\ver1\WindowsFormsApp2\obj\Debug\UserLoginRegisterManage.csproj.CoreCompileInputs.cache
+C:\Users\Elev\Source\Repos\XGDavid\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Elev\Source\Repos\XGDavid\ver1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Elev\Source\Repos\XGDavid\ver1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Elev\Source\Repos\XGDavid\ver1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
